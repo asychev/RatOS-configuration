@@ -1,4 +1,5 @@
 #!/bin/bash
+# NOTE: This script ONLY WORKS if the board has already been flashed with klipper
 
 if [ "$EUID" -ne 0 ]
   then echo "ERROR: Please run as root"
